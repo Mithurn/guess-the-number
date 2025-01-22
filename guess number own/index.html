@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>guess the number</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body class="body">
+       
+        <div class="heading-flexbox">
+            <button class="again-button">Again!</button>
+            <h1 class="heading">(Between 1 and 20)</h1>
+        </div>
+
+
+        <div>
+            <h2 class="title">Guess My Number!</h2>
+        </div>
+
+        <div class="game-container">
+            <div class="line">.</div>
+            <div class="box">
+                <span class="question-mark">?</span>
+            </div>
+        </div>
+<div class="bottom-flex">
+        <div class="input-container">
+            <input type="number" class="input-box" placeholder="">
+            <button class="check-button">Check!</button>
+        </div>
+
+      
+          <div class="score-container">
+            <p class="details"> start guessing...</p>
+            <div class="score">
+               <p id="score">Score:20</p> 
+              </div>
+              <div class="high-score">
+                <p id="highscore">High Score:0</p>
+              </div>
+    
+          </div>
+          
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
